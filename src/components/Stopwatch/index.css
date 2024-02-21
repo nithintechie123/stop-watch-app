@@ -1,0 +1,89 @@
+@media screen and (max-width: 567px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+
+    background-position: center;
+  }
+  .stopwatch-and-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    max-width: 300px;
+  }
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding: 20px;
+}
+
+.stopwatch-and-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  max-width: 300px;
+}
+
+.stopwatch-container {
+  box-shadow: 0px 4px 16px 0px;
+  background-color: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-image-label-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer-label {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.display-mins-secs-heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #333333;
+}
+
+.buttons-container {
+}
+.time-control-button {
+  margin: 5px;
+  border-width: 0px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bg-green {
+  background-color: #1db05f;
+}
+
+.bg-red {
+  background-color: #ef0d36;
+}
+
+.bg-yellow {
+  background-color: #eaa800;
+}
